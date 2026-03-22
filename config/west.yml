@@ -5,11 +5,11 @@ manifest:
   projects:
     - name: alu40-module
       url: https://github.com/polarityworks/zmk-config-alu40
-      revision: v0.3
+      revision: main
       clone-depth: 1
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
   self:
     path: config
